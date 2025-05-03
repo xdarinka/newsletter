@@ -123,3 +123,29 @@ body {
   font-size: 16px;
   border-radius: 10px;
 }
+.newsletter-container__form button:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(180, 58, 131, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  cursor: pointer;
+  transform: scale(1.02);
+  transition: transform 0.1s ease-in;
+}
+.newsletter-container__success button:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(180, 58, 131, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  cursor: pointer;
+  transform: scale(1.02);
+  transition: transform 0.1s ease-in;
+}
+.newsletter-container__form input:hover {
+  cursor: pointer;
+  border: 1px solid black;
+}
